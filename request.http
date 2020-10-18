@@ -1,0 +1,30 @@
+http://localhost:3000/api/numbers
+
+### get 
+GET http://localhost:3000/api/user/10/luis?id=10
+
+### Todos LOS USUARIOS
+GET http://localhost:3000/api/users/
+
+
+###
+GET http://localhost:3000/api/users/10
+
+### post
+POST http://localhost:3000/api/users/
+Content-Type: application/json
+
+{
+    "name":"asdasdasdasdasdasddd"
+
+}
+
+
+### put
+PUT  http://localhost:3000/api/users/4
+Content-Type: application/json
+
+{
+    "name":"sdfsdfsdfsdfsdfsdfasda"
+
+}
